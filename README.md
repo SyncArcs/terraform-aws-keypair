@@ -21,7 +21,8 @@ To use this module, you should have Terraform installed and configured for AWS. 
 
 ```hcl
 module "private_keypair" {
-  source                     = "git::https://github.com/SyncArcs/terraform-aws-keypair.git?ref=v1.0.0"
+  source                     = "SyncArcs/keypair/aws"
+  version                    = "1.0.0"
   name                       = "private-key"
   environment                = "test"
   label_order                = ["name", "environment"]
@@ -33,7 +34,8 @@ module "private_keypair" {
 ## Example: s3 complete
 ```hcl
 module "public_keypair" {
-  source      = "git::https://github.com/SyncArcs/terraform-aws-keypair.git?ref=v1.0.0"
+  source      = "SyncArcs/keypair/aws"
+  version     = "1.0.0"
   name        = "public-key"
   environment = "test"
   label_order = ["name", "environment"]
