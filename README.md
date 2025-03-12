@@ -106,3 +106,5 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 | <a name="output_public_key_openssh"></a> [public\_key\_openssh](#output\_public\_key\_openssh) | The public key data in "Authorized Keys" format. This is populated only if the configured private key is supported: this includes all `RSA` and `ED25519` keys |
 | <a name="output_public_key_pem"></a> [public\_key\_pem](#output\_public\_key\_pem) | Public key data in PEM (RFC 1421) format |
 <!-- END_TF_DOCS -->
+
+
