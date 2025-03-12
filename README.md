@@ -64,7 +64,7 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.90.1 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 5.13.1 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | 3.0.0 |
 
 ## Modules
